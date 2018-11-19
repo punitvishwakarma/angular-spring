@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 27, 2018 2:05:41 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.punit.angular.domain.EmpDetails" table="emp_details" catalog="employee" optimistic-lock="version">
+        <id name="empId" type="java.lang.Integer">
+            <column name="emp_id" />
+            <generator class="identity" />
+        </id>
+        <property name="empName" type="string">
+            <column name="emp_name" not-null="true" />
+        </property>
+        <property name="empEmail" type="string">
+            <column name="emp_email" not-null="true" />
+        </property>
+        <property name="empGender" type="string">
+            <column name="emp_gender" not-null="true" />
+        </property>
+        <property name="empAddress" type="string">
+            <column name="emp_address" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,7 +1,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <html ng-app="crudApp">
     <head>
-        <title>AngularJS CRUD Operations Demo</title>
+        <title>AngularJS CRUD Operation Demo</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Include Bootstrap CSS -->
         <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css">
